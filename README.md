@@ -33,6 +33,7 @@ The application is organized into three core modules:
 - **GUI Framework:** Qt Framework (Qt Widgets) via PyQt5
 - **Numerical Computing:** NumPy, SymPy
 - **Industrial Communication:** Snap7 (PLC Ethernet protocol)
+- **Industrial PLC Framework:** Siemens TIA Portal (PLC Ethernet programming and configuration)
 - **Validation:** MATLAB (Kinematics and Dynamics simulation)
 - **OS:** Windows
 
