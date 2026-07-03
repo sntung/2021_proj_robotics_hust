@@ -34,7 +34,7 @@ class Window1(QWidget):         # Chế độ điều khiển khớp
     def __init__(self):
 
         super().__init__()
-        loadUi('Window1.ui', self)
+        loadUi('ui/window1.ui', self)
                 
         self.q_input = [0, 0, 0, 0, 0, 0]
         self.dq_input = [0, 0, 0, 0, 0, 0]     
@@ -173,7 +173,7 @@ class Window2(QWidget):         # Chế độ điều khiển theo Bài toán Đ
     def __init__(self):
 
         super().__init__()
-        loadUi('Window2.ui', self)
+        loadUi('ui/window2.ui', self)
 
         self.q_input = [0, 0, 0, 0, 0, 0]
         self.p_output = [0, 0, 0, 0, 0, 0]
@@ -362,7 +362,7 @@ class Window3(QWidget):         # Chế độ điều khiển theo Bài toán đ
     def __init__(self):
 
         super().__init__()
-        loadUi('Window3.ui', self)
+        loadUi('ui/window3.ui', self)
 
         self.p_input = [0, 0, 0, 0, 0, 0]
         self.q_output = [0, 0, 0, 0, 0, 0]
@@ -622,7 +622,7 @@ class Window3(QWidget):         # Chế độ điều khiển theo Bài toán đ
 class MainWindow(QWidget):
     def __init__(self):
         super().__init__()
-        loadUi('MainWindow.ui', self)
+        loadUi('ui/main_window.ui', self)
         self.commandLinkButton1.clicked.connect(self.gotoWindow1)
         self.commandLinkButton2.clicked.connect(self.gotoWindow2)
         self.commandLinkButton3.clicked.connect(self.gotoWindow3)
