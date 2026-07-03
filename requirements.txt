@@ -1,0 +1,4 @@
+numpy
+sympy
+PyQt5
+python-snap7
